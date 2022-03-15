@@ -1,13 +1,11 @@
 // make connection
 const socket = io.connect("http://localhost:4768");
-
 // Query DOM
 const message = document.getElementById("message");
 handle = document.getElementById("handle");
 btn = document.getElementById("send");
 output = document.getElementById("output");
 feedback = document.getElementById("feedback");
-
 //   Emit events
 btn.addEventListener("click", function () {
   socket.emit("chat", {
@@ -15,11 +13,9 @@ btn.addEventListener("click", function () {
     handle: handle.value,
   });
 });
-
 message.addEventListener("keypress", function () {
   socket.emit("typing", handle.value);
 });
-
 // listen for events
 socket.on("chat", function (data) {
   feedback.innerHTML = "";
