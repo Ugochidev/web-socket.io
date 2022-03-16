@@ -1,5 +1,5 @@
 // make connection
-const socket = io.connect("http://localhost:4768");
+const socket = io.connect("https://ugochidev-web.herokuapp.com/");
 // Query DOM
 const message = document.getElementById("message");
 handle = document.getElementById("handle");
