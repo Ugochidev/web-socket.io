@@ -6,7 +6,7 @@ if (
   newUserPass == "myown_" ||
   newUserPass == "josh_" ||
   newUserPass == "ugochidev_" ||
-  newUserPass == "wheeler_"
+  newUserPass == "wheelerj_"
 ) {
   alert("Welcome in, Enjoy your sesion.....");
   socket = io.connect("https://ugochidev-web.herokuapp.com/");
