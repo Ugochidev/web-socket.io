@@ -19,7 +19,7 @@ h2{
 #chat-window{
     height: 400px;
     overflow: auto;
-    background:#555
+    background:cadetblue
 }
 
 #output p{
