@@ -1,6 +1,4 @@
 // make connection
-// const socket = io.connect("https://ugochidev-web.herokuapp.com/");
-
 let newUserPass = prompt(
   "App locked, Please input App Password."
 ).toLowerCase();

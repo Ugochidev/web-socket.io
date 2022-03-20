@@ -7,7 +7,6 @@ const app = express();
 const server = app.listen(process.env.PORT, function () {
   console.log("listening to requests on PORT");
 });
-
 // Static files
 app.use(express.static("public"));
 
